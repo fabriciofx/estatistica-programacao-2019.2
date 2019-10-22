@@ -1,0 +1,15 @@
+make "degraus 10
+make "tamanho 20
+clearscreen
+hideturtle
+setpencolor 0
+setpensize 2
+penup
+setxy -100 -100
+pendown
+repeat :degraus [
+  forward :tamanho
+  right 90
+  forward :tamanho
+  left 90
+]

@@ -1,0 +1,12 @@
+make "raios 8
+make "tamanho 150
+make "angulo 45
+clearscreen
+hideturtle
+setpencolor 0
+setpensize 2
+repeat :raios [
+  forward :tamanho
+  back :tamanho
+  right :angulo
+]

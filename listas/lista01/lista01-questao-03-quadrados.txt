@@ -1,0 +1,15 @@
+make "quadrados 4
+make "tamanho 10
+clearscreen
+hideturtle
+setpencolor 0
+setpensize 2
+repeat 2 [
+  repeat :quadrados [
+    forward :tamanho
+    right 90
+    forward :tamanho
+    left 90
+  ]
+  right 180
+]

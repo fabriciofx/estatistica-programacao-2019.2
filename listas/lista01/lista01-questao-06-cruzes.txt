@@ -1,0 +1,26 @@
+make "quantidade_de_cruzes 5
+make "altura 50
+make "largura 50
+make "margem 20
+clearscreen
+hideturtle
+setpencolor 0
+setpensize 2
+repeat :quantidade_de_cruzes [
+  forward :altura
+  left 90
+  penup
+  forward :largura / 2
+  left 90
+  forward :altura / 2
+  left 90
+  pendown
+  forward :largura
+  right 90
+  penup
+  forward :altura / 2
+  left 90
+  forward :margem + :largura /2
+  left 90
+  pendown
+]

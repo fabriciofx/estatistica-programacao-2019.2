@@ -1,0 +1,2 @@
+Desenha um quadrado de 200 pixels de lado, divido em quatro quadrados
+menores de 100 pixels de lado cada um.

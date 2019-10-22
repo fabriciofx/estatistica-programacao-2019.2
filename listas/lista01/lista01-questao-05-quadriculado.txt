@@ -1,0 +1,21 @@
+make "quantidade_horizontal 11
+make "quantidade_vertical 3
+make "tamanho 30
+hideturtle
+setpencolor 0
+setpensize 2
+setx -1 * :quantidade_horizontal * :tamanho / 2
+clean
+repeat :quantidade_horizontal [
+  repeat :quantidade_vertical [
+    repeat 4 [
+      forward :tamanho
+      right 90
+    ]
+    forward :tamanho
+  ]
+  back 90
+  right 90
+  forward :tamanho
+  left 90
+]
